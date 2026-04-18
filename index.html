@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andrew Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+    <div class="logo">Andrew Great Oghenemarho</div>
+<div class="theme-toggle" id="theme-toggle">
+    <i class="fas fa-moon"></i>
+</div>
+    <!-- HAMBURGER -->
+    <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- NAV LINKS -->
+    <nav id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="nav-btn">Contact Me</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero glass reveal">
+    <div class="hero-left">
+        <p class="intro">Hello, I’m</p>
+        <h1>Andrew Great<br>Oghenemarho</h1>
+        <p class="role">Full-Stack Developer & UI/UX Designer</p>
+        <p class="desc">
+            I create efficient full-stack solutions and design user-friendly interfaces.
+            Welcome to my portfolio!
+        </p>
+
+        <div class="hero-btns">
+            <a href="#projects" class="btn primary">View My Work</a>
+            <a href="#contact" class="btn outline">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="hero-right">
+        <div class="img-frame">
+            <img src="profile.jpg">
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about glass reveal">
+    <div class="about-left">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Full-Stack Developer & UI/UX Designer with expertise in
+            creating robust backend systems using Python, FastAPI, and Flutter,
+            as well as crafting engaging interfaces using HTML, CSS, JavaScript,
+            and design tools. I love solving complex problems and building applications
+            that make a difference.
+        </p>
+
+        <div class="about-info">
+            <div><i class="fas fa-envelope"></i> andrewgreat46@email.com</div>
+            <div><i class="fab fa-github"></i> github.com/andrewgreat02</div>
+        </div>
+
+        <button class="btn outline">Download Resume</button>
+    </div>
+
+    <div class="about-right">
+        <div class="img-frame small">
+            <img src="profile.jpg">
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills reveal">
+    <h2>My Skills</h2>
+    <p class="subtitle">Here are some of the tools and technologies I work with:</p>
+
+    <div class="skills-card glass">
+
+        <h3>Development</h3>
+        <div class="skills-row">
+            <div class="skill"><i class="devicon-python-plain colored"></i> Python</div>
+            <div class="skill"><i class="devicon-fastapi-plain colored"></i> FastAPI</div>
+            <div class="skill"><i class="devicon-flutter-plain colored"></i> Flutter</div>
+            <div class="skill"><i class="devicon-html5-plain colored"></i> HTML</div>
+            <div class="skill"><i class="devicon-css3-plain colored"></i> CSS</div>
+            <div class="skill"><i class="devicon-javascript-plain colored"></i> JS</div>
+        </div>
+
+        <h3>UI / UX Design</h3>
+        <div class="skills-row">
+            <div class="skill"><i class="devicon-figma-plain colored"></i> Figma</div>
+            <div class="skill"><i class="devicon-xd-plain colored"></i> XD</div>
+        </div>
+
+        <h3>Graphic Design</h3>
+        <div class="skills-row">
+            <div class="skill"><i class="devicon-illustrator-plain colored"></i> AI</div>
+            <div class="skill"><i class="devicon-photoshop-plain colored"></i> PS</div>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects reveal">
+    <h2>My Projects</h2>
+    <p class="subtitle">Some of the work I’ve built recently</p>
+
+    <div class="projects-grid">
+
+        <div class="project-card glass">
+            <img src="project1.jpg">
+            <h3>FaceMetric Analyzer</h3>
+            <p>AI-powered facial analysis system using computer vision.</p>
+
+            <div class="project-buttons">
+                <button class="btn primary">Live</button>
+                <button class="btn outline">Code</button>
+            </div>
+        </div>
+
+        <div class="project-card glass">
+            <img src="project2.jpg">
+            <h3>Graphics Design</h3>
+            <p>Modern Flyer Design, done with photoshop.</p>
+
+            <div class="project-buttons">
+                <button class="btn primary">Live</button>
+                <button class="btn outline">Code</button>
+            </div>
+        </div>
+
+        <div class="project-card glass">
+            <img src="project3.jpg">
+            <h3>Flutter Mobile App</h3>
+            <p>Cross-platform mobile app with API integration.</p>
+
+            <div class="project-buttons">
+                <button class="btn primary">Live</button>
+                <button class="btn outline">Code</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact glass reveal">
+    <h2>Contact Me</h2>
+    <p class="subtitle">Let’s work together</p>
+
+    <div class="contact-box">
+        <p><i class="fas fa-envelope"></i> andrewgreat46@email.com</p>
+        <p><i class="fab fa-github"></i> github.com/andrewgreat02</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
