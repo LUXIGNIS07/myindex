@@ -299,7 +299,6 @@ body {
 @media (max-width: 1024px) {
 
     .hero {
-        flex-direction: column;
         text-align: center;
         gap: 40px;
         flex-direction: column-reverse;
@@ -342,6 +341,7 @@ body {
     .hero {
         padding: 30px;
         margin: 20px;
+        flex-direction: column-reverse;
     }
 
     .hero-left h1 {
