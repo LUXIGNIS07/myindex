@@ -567,17 +567,24 @@ body.dark .outline:hover {
     color: white;
 }
 /* Target the anchor tag acting as a button */
+/* 1. Ensure the anchor tag acting as a button behaves like a flex container */
 .project-buttons a.btn {
-    text-decoration: none;      /* Removes the underline */
-    display: inline-flex;      /* Helps with centering */
-    align-items: center;       /* Centers text vertically */
-    justify-content: center;   /* Centers text horizontally */
-    text-align: center;        /* Ensures text alignment */
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    margin-right: 0 !important; /* Reset margin if needed */
+    color: white !important;
+    text-align: center;
 }
 
-/* Ensure the button maintains its look */
+/* 2. Clean up the base .btn class to be more flexible */
 .btn {
-    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
     text-decoration: none;
-    /* Keep your existing padding, border-radius, etc. */
+    display: inline-flex; /* Changed from inline-block to flex */
+    align-items: center;
+    justify-content: center;
 }
