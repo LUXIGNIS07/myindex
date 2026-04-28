@@ -48,7 +48,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column-reverse;
+    
 }
 
 .hero-left h1 {
@@ -302,6 +302,7 @@ body {
         flex-direction: column;
         text-align: center;
         gap: 40px;
+        flex-direction: column-reverse;
     }
 
     .about {
@@ -328,6 +329,7 @@ body {
         flex-direction: column;
         gap: 15px;
         padding: 20px;
+        flex-direction: column-reverse;
     }
 
     .nav nav {
