@@ -294,7 +294,13 @@ body {
 /* =========================
    MOBILE RESPONSIVENESS
 ========================= */
-
+/* 1. Ensure the toggle is visible and positioned */
+.menu-toggle {
+    display: none; /* Hidden by default on desktop */
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001; /* Ensure it's above the navbar */
+}
 /* TABLET */
 @media (max-width: 1024px) {
 
@@ -324,11 +330,21 @@ body {
 @media (max-width: 768px) {
 
     /* NAVBAR */
+     .menu-toggle {
+        display: block; /* Show on mobile */
+        position: absolute;
+        right: 20px;
+        top: 25px;
+    }
+
+    
     .nav {
         flex-direction: column;
         gap: 15px;
         padding: 20px;
         flex-direction: column-reverse;
+         padding-right: 60px; /* Make space for the icon */
+    }
     }
 
     .nav nav {
