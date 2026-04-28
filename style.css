@@ -566,3 +566,18 @@ body.dark .outline:hover {
     background: #6c8cff;
     color: white;
 }
+/* Target the anchor tag acting as a button */
+.project-buttons a.btn {
+    text-decoration: none;      /* Removes the underline */
+    display: inline-flex;      /* Helps with centering */
+    align-items: center;       /* Centers text vertically */
+    justify-content: center;   /* Centers text horizontally */
+    text-align: center;        /* Ensures text alignment */
+}
+
+/* Ensure the button maintains its look */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    /* Keep your existing padding, border-radius, etc. */
+}
